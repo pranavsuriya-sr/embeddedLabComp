@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav>
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+          <i class="fas fa-bars"></i>
+        </label>
+        <label class="logo">Embedded Lab</label>
+        <ul>
+          <li><a href="/index.html">Provide</a></li>
+          <li><a href="/returnFile.html">Return</a></li>
+          <li><a href="/compo.html">Check Components</a></li>
+        </ul>
+      </nav>
+
+      <div class="form-container">
+        <form id="contactForm5" class="formClct" style="margin-top: 100px;">
+            <input id="cmp" class="cmp1" type="text" placeholder="Enter component name: ">
+            <input id="cmpn" class="cmpn1" type="number" placeholder="Enter quantity: ">
+            <button type="submit" class="sbtn" id="sbtn1">Add Component</button>
+        </form>
+
+        <form id="contactForm6" style="margin-left: 100px; margin-top: 100px;" class="formClct">
+            <input id="cmp2" class="r2" type="text" placeholder="Enter Component name">
+            <button type="submit" class="sbtn" id="sbtn2">Status</button>
+            <div id="appointmentDetails" style="margin-top: 20px;">
+                <h2>Details</h2>
+                <p style="color: white;" id="appointmentDetailsText"></p>
+                <br>
+                <p style="color: white;" id="appointmentDetailsText1"></p>
+            </div>
+
+        </form>
+        <!-- Add an ID to the third form -->
+
+    </div>
+    
+
+
+      <script src="index.js" type="module"></script>
+</body>
+</html>
